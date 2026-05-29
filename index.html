@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nitin Vishwakarma | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      scroll-behavior:smooth;
+      font-family:'Poppins',sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      width:100%;
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      background:linear-gradient(to right,#0f172a,#1e293b);
+      padding:20px;
+    }
+
+    .hero h1{
+      font-size:60px;
+      color:#38bdf8;
+    }
+
+    .hero h3{
+      font-size:28px;
+      margin-top:10px;
+      color:#cbd5e1;
+    }
+
+    .hero p{
+      margin-top:20px;
+      max-width:700px;
+      color:#94a3b8;
+    }
+
+    .buttons{
+      margin-top:30px;
+    }
+
+    .buttons a{
+      text-decoration:none;
+      color:white;
+      background:#38bdf8;
+      padding:12px 25px;
+      margin:10px;
+      border-radius:8px;
+      display:inline-block;
+      transition:0.3s;
+      font-weight:600;
+    }
+
+    .buttons a:hover{
+      background:#0284c7;
+      transform:scale(1.05);
+    }
+
+    section{
+      padding:80px 10%;
+    }
+
+    .title{
+      text-align:center;
+      font-size:40px;
+      margin-bottom:50px;
+      color:#38bdf8;
+    }
+
+    .about{
+      text-align:center;
+      color:#cbd5e1;
+      max-width:900px;
+      margin:auto;
+    }
+
+    .skills-container{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
+    }
+
+    .skill-card{
+      background:#1e293b;
+      padding:25px;
+      border-radius:15px;
+      transition:0.3s;
+      text-align:center;
+    }
+
+    .skill-card:hover{
+      transform:translateY(-8px);
+      background:#334155;
+    }
+
+    .skill-card h3{
+      margin-bottom:15px;
+      color:#38bdf8;
+    }
+
+    .projects{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:30px;
+    }
+
+    .project-card{
+      background:#1e293b;
+      padding:25px;
+      border-radius:15px;
+      transition:0.3s;
+    }
+
+    .project-card:hover{
+      transform:translateY(-10px);
+      background:#334155;
+    }
+
+    .project-card h3{
+      color:#38bdf8;
+      margin-bottom:15px;
+    }
+
+    .certifications ul{
+      list-style:none;
+      text-align:center;
+    }
+
+    .certifications li{
+      margin:15px 0;
+      background:#1e293b;
+      padding:15px;
+      border-radius:10px;
+    }
+
+    .contact{
+      text-align:center;
+    }
+
+    .contact a{
+      color:#38bdf8;
+      text-decoration:none;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      background:#020617;
+      color:#94a3b8;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+
+  <header>
+    <div class="hero">
+      <h1>Nitin Vishwakarma</h1>
+      <h3>AI & ML Student | Python Developer</h3>
+
+      <p>
+        Motivated B.Tech Computer Science Engineering (AI & ML) student
+        passionate about Artificial Intelligence, Machine Learning,
+        and solving real-world problems using data-driven technologies.
+      </p>
+
+      <div class="buttons">
+        <a href="#">Download Resume</a>
+        <a href="https://github.com/2018nitinvishwakarma-ops" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/nitin-vishwakarma-19a62337a/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ABOUT SECTION -->
+
+  <section>
+    <h2 class="title">About Me</h2>
+
+    <div class="about">
+      <p>
+        I am currently pursuing B.Tech in Computer Science Engineering
+        with specialization in AI & ML at Kashi Institute of Technology.
+        I am passionate about Machine Learning, Artificial Intelligence,
+        Computer Vision, and Python Development.
+        I love building innovative AI projects and continuously learning
+        new technologies.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- SKILLS SECTION -->
+
+  <section>
+    <h2 class="title">Technical Skills</h2>
+
+    <div class="skills-container">
+
+      <div class="skill-card">
+        <h3>Programming</h3>
+        <p>Python</p>
+        <p>C Language</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Libraries</h3>
+        <p>Pandas</p>
+        <p>NumPy</p>
+        <p>Matplotlib</p>
+        <p>Scikit-learn</p>
+        <p>Seaborn</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Tools</h3>
+        <p>VS Code</p>
+        <p>Jupyter Notebook</p>
+        <p>Git & GitHub</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>AI/ML Skills</h3>
+        <p>Machine Learning</p>
+        <p>Regression Models</p>
+        <p>Feature Engineering</p>
+        <p>Data Preprocessing</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- PROJECTS SECTION -->
+
+  <section>
+    <h2 class="title">Projects</h2>
+
+    <div class="projects">
+
+      <div class="project-card">
+        <h3>Salary Prediction Using Regression</h3>
+
+        <p>
+          Developed a machine learning model to predict employee salaries
+          using regression algorithms.
+        </p>
+
+        <br>
+
+        <p><strong>Technologies:</strong> Python, Pandas, NumPy, ML</p>
+
+        <br>
+
+        <a href="https://github.com/2018nitinvishwakarma-ops/salary-prediction-using-regression"
+           target="_blank"
+           style="color:#38bdf8;">
+           View Project
+        </a>
+      </div>
+
+
+      <div class="project-card">
+        <h3>Cricket AI Shot Recommendation System</h3>
+
+        <p>
+          Built an AI-based cricket project for predicting and recommending
+          the best batting shots based on player data.
+        </p>
+
+        <br>
+
+        <p><strong>Technologies:</strong> Python, AI, Machine Learning</p>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CERTIFICATIONS -->
+
+  <section class="certifications">
+    <h2 class="title">Certifications</h2>
+
+    <ul>
+      <li>IBM Virtual Internship in AI</li>
+      <li>Cisco - Introduction to Modern AI</li>
+      <li>Generative AI & ML - Future Skill Prime</li>
+      <li>Digital Productivity with AI</li>
+    </ul>
+  </section>
+
+
+  <!-- EXPERIENCE -->
+
+  <section>
+    <h2 class="title">Experience & Achievements</h2>
+
+    <div class="projects">
+
+      <div class="project-card">
+        <h3>IBM Virtual Internship</h3>
+
+        <p>
+          Completed internship-based learning modules focused on
+          Artificial Intelligence concepts and implementation.
+        </p>
+
+        <br>
+
+        <p><strong>Duration:</strong> 4 Weeks</p>
+      </div>
+
+
+      <div class="project-card">
+        <h3>Smart India Hackathon 2025</h3>
+
+        <p>
+          Participated with project:
+          Smart Traffic Management System for Urban Congestion.
+        </p>
+      </div>
+
+
+      <div class="project-card">
+        <h3>Zonal Athletics</h3>
+
+        <p>
+          Achieved 1st Position in Zonal Athletics two times.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CONTACT SECTION -->
+
+  <section class="contact">
+    <h2 class="title">Contact Me</h2>
+
+    <p>Email: nitinvishwakarma@gmail.com</p>
+
+    <br>
+
+    <p>
+      GitHub:
+      <a href="https://github.com/2018nitinvishwakarma-ops" target="_blank">
+        github.com/2018nitinvishwakarma-ops
+      </a>
+    </p>
+
+    <br>
+
+    <p>
+      LinkedIn:
+      <a href="https://linkedin.com/in/nitin-vishwakarma-19a62337a/" target="_blank">
+        linkedin.com/in/nitin-vishwakarma
+      </a>
+    </p>
+
+    <br>
+
+    <p>Location: Varanasi, Uttar Pradesh, India</p>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+    <p>© 2026 Nitin Vishwakarma | AI & ML Portfolio</p>
+  </footer>
+
+</body>
+</html>
